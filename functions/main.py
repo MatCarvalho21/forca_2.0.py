@@ -2,6 +2,7 @@ from fun_inicializador import fun_inicializador
 from fun_jogadores import fun_jogadores
 from fun_dificuldades import fun_dificuldades
 from fun_escolha_palavra import fun_escolha_palavra
+from fun_normalizador import fun_normalizador
 
 #VAI INICIAR O JOGO
 fun_inicializador() 
@@ -14,3 +15,6 @@ escolha_da_dificuldade = fun_dificuldades()
 
 #VAI DEFINIR A ESCOLHA DA PALAVRA
 palavra_escolhida = fun_escolha_palavra(escolha_do_modo)
+
+#VAI NORMALIZAR A PALAVRA ESCOLHIDA
+palavra_normalizada = fun_normalizador(palavra_escolhida)
