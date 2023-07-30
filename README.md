@@ -13,3 +13,6 @@ PS.: Ela não é boa, mas eu gosto de jogar com ela.
 * Primeiramente é necessário clonar o repositório em sua máquina;
 * Logo em seguida é necessário rodar o arquivo `main.py`. Que está contido na pasta `forca.py`;
 * Por fim, basta seguir os comandos que serão exibidos no terminal e se divertir.
+
+PS.: É necessário ter o python instalado na sua máquina.
+PS.2: Para rodar a aplicação, é necessário instalar uma biblioteca de python chamada `unidecode`. Para isso, basta abrir o terminal e digitar `pip install unidecode`.
