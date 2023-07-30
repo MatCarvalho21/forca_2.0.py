@@ -18,3 +18,4 @@ PS.: É necessário ter o python instalado na sua máquina.
 
 PS.2: Para rodar a aplicação, é necessário instalar uma biblioteca de python chamada `unidecode`. Para isso, basta abrir o terminal e digitar `pip install unidecode`.
 ## Tutorial:
+O jogo da forca é extremamente simples. O jogador deve adivinhar a palavra selecionada. Para isso ele tem um número limitado de palpites. Esses palpites podem ser letras ou palavras. Caso acerte a palavra inteira, ele vence o jogo. Caso acerte uma letra, ela ficará em evidência e ele poderá jogar novamente sem perder um palpite. Caso erre, ele perde uma chance de palpitar. Uma vez que o jogado estourou o número de erros, ele tem a chance final de adivinhar a palavra em questão e vencer o jogo ou perder de vez.
