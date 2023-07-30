@@ -1,9 +1,14 @@
 from fun_limpador import fun_limpador
+from fun_centralizador import print_c
 
 def fun_dificuldades():
+    """
+    vai receber a dificuldade escolhida pelo usuário
+    """
     fun_limpador()
-    
     while True:
+        print_c("FORCA.py 2.0")
+        print()
         print("Vamos começar escolhendo o número de erros permitidos. Abaixo estão suas opções: \n")
         print("1 - Iniciante (10 erros)")
         print("2 - Experiente (5 erros)")
@@ -15,7 +20,8 @@ def fun_dificuldades():
 
         else:
             fun_limpador()
-            print("Selecione, por favor, um valor válido.\n")
+            print_c("INSIRA UM VALOR VÁLIDO!")
+            print()
             continue
 
     return int(escolha_de_dificuldade)
